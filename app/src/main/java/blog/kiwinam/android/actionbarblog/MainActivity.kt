@@ -18,6 +18,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        setToolbar()
+
+
+    }
+
+    private fun setToolbar(){
         // 툴바 사용 설정
         setSupportActionBar(toolbar)
 
